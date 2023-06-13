@@ -1,0 +1,91 @@
+.mai {
+  background-color: rgba(9, 9, 9, 0.969);
+  height: 99vh;
+  border: solid 2pt rgb(14, 14, 14);
+  color: white;
+  overflow-x: hidden;
+}
+
+.a {
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 234653cm;
+  height: 6cm;
+}
+
+.b {
+  margin-right: 0px; 
+  font-size: larger;
+  cursor: pointer;
+  float: right;
+}
+
+
+.c {
+  margin-left: 10%;
+  width: 50%; /* Adjust as needed */
+  max-height: 8cm; /* Adjust as needed */
+}
+
+.single-line-input,
+.x,
+.y,
+.j {
+  background-color: rgba(48, 48, 50, 0.396);
+  color: white;
+  border-radius: 0.3cm;
+  margin-top: -1cm;
+  height: 1cm;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+
+.semiMain {
+  background-color: rgba(9, 9, 9, 0);
+  width: 80%;
+  margin: 3cm auto 0; /* Adjust the margin values to shift the container down */
+  height: 10cm;
+}
+
+.smallMain {
+  margin-right: 20%;
+}
+
+.sign-up-button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 0.3cm;
+  padding: 0.5cm 1cm;
+  margin-top: 1cm;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sign-up-button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .a,
+  .b,
+  .c,
+  .d,
+  .semiMain,
+  .smallMain,
+  .single-line-input,
+  .x,
+  .y,
+  .j {
+    margin: 0.4cm;
+    width: 90%;
+    font-size: 80%;
+  }
+  .b {
+    margin-right: 9888cm; 
+    font-size: larger;
+    cursor: pointer;
+    float: right;
+  }
+}

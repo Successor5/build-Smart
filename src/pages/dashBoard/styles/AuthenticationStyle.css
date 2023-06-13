@@ -1,0 +1,33 @@
+.mai1 {
+  background-color: black;
+  height: 100vh;
+  border: solid 2pt black;
+  overflow:hidden
+}
+
+.small{
+  display: flex;
+  justify-content: space-between;
+  width: 8cm;
+  margin-left: 1cm;
+  margin-top: 2cm; 
+}
+
+.box1 {
+    background-color: rgb(167, 172, 172);
+    height: 2cm;
+    width: 2cm;
+  }
+  
+  .box2 {
+    height: 2cm;
+    width: 2cm;
+    background-color: rgb(196, 200, 204);
+  }
+  
+  .box3 {
+    height: 2cm;
+    width: 2cm;
+    background-color: rgb(94, 96, 96);
+  }
+  
