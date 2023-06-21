@@ -24,7 +24,11 @@ function Login() {
 
   return (
     <div className="main">
+<<<<<<< HEAD
       <h1 className="w" onClick={()=>{window.location.href = "/"}}>Sign Up</h1>
+=======
+      <h1 className="b">Sign Up</h1>
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
       <img src={picture} alt="" className="a" />
       <div className="semiMain">
         <div className="smallMain">

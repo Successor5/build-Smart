@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "buildsmart",
+=======
+  "name": "supply",
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +12,11 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.13.0",
+=======
+    "react-router-dom": "^6.12.1",
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

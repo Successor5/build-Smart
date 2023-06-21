@@ -14,6 +14,7 @@
 }
 
 .b {
+<<<<<<< HEAD
   font-size: larger;
   cursor: pointer;
   float: right;
@@ -28,6 +29,19 @@
   margin-left: 10%;
   width: 50%; 
   max-height: 8cm;
+=======
+  margin-right: 0px; 
+  font-size: larger;
+  cursor: pointer;
+  float: right;
+}
+
+
+.c {
+  margin-left: 10%;
+  width: 50%; /* Adjust as needed */
+  max-height: 8cm; /* Adjust as needed */
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
 }
 
 .single-line-input,

@@ -1,21 +1,34 @@
 .mai1 {
+<<<<<<< HEAD
   background-color: rgb(16, 15, 15);
   height: 100vh;
   border: solid 2pt black;
   overflow:hidden;
   color: white;
+=======
+  background-color: black;
+  height: 100vh;
+  border: solid 2pt black;
+  overflow:hidden
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
 }
 
 .small{
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   width: 9cm;
+=======
+  justify-content: space-between;
+  width: 8cm;
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
   margin-left: 1cm;
   margin-top: 2cm; 
 }
 
 .box1 {
     background-color: rgb(167, 172, 172);
+<<<<<<< HEAD
     height: 1cm;
     width: 6cm;
     /* margin-right: 2cm; */
@@ -47,5 +60,21 @@
       margin-top: 1cm;
       width: 20%;
     }
+=======
+    height: 2cm;
+    width: 2cm;
+  }
+  
+  .box2 {
+    height: 2cm;
+    width: 2cm;
+    background-color: rgb(196, 200, 204);
+  }
+  
+  .box3 {
+    height: 2cm;
+    width: 2cm;
+    background-color: rgb(94, 96, 96);
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
   }
   

@@ -20,14 +20,21 @@ function Register() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+<<<<<<< HEAD
     window.location.href = "/page3";
+=======
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
   };
 
   return (
     <div className="mai">
+<<<<<<< HEAD
       <div className="log">
         <h1 className="w" onClick={()=>{window.location.href = "/page1"}} >Log In</h1>
       </div>
+=======
+      <h1 className="b">Log In</h1>
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
       <img src={picture} alt="" className="a" />
       <div className="semiMain">
         <div className="smallMain">
@@ -38,6 +45,7 @@ function Register() {
             className="single-line-input"
             placeholder="Enter text"
           />
+<<<<<<< HEAD
           <h3 className="text2">PhoneNumber</h3>
           <input
             type="text"
@@ -46,6 +54,8 @@ function Register() {
             placeholder="Enter text"
             maxLength={11}
           />
+=======
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
           <h3>Email</h3>
           <input
             type="email"
@@ -64,6 +74,16 @@ function Register() {
             value={password}
             onChange={handlePasswordChange}
           />
+<<<<<<< HEAD
+=======
+          <h3 className="text2">PhoneNumber</h3>
+          <input
+            type="text"
+            id="phoneNumberInput"
+            className="j"
+            placeholder="Enter text"
+          />
+>>>>>>> 55a5b4f02f5e25f968566b9601b55e54540d3a27
           {isButtonVisible && (
             <button className="sign-up-button" onClick={handleFormSubmit}>
               Sign Up
