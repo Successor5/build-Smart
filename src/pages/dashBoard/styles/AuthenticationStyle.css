@@ -1,0 +1,51 @@
+.mai1 {
+  background-color: rgb(16, 15, 15);
+  height: 100vh;
+  border: solid 2pt black;
+  overflow:hidden;
+  color: white;
+}
+
+.small{
+  display: flex;
+  justify-content: center;
+  width: 9cm;
+  margin-left: 1cm;
+  margin-top: 2cm; 
+}
+
+.box1 {
+    background-color: rgb(167, 172, 172);
+    height: 1cm;
+    width: 6cm;
+    /* margin-right: 2cm; */
+  }
+  button{
+    margin-top: 2cm;
+    height: 1cm;
+    width: 2cm;
+    background-color: rgba(213, 185, 24, 0.727)
+  }
+  @media (max-width: 768px) {
+    
+    .small {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 1cm;
+    }
+    
+    .box1 {
+      width: 100%;
+      margin-right: 0;
+      text-align: center;
+      font-size:large;
+      border: none;
+      outline: none;
+    }
+    
+    button {
+      margin-top: 1cm;
+      width: 20%;
+    }
+  }
+  
