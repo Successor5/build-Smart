@@ -7,13 +7,13 @@
   }
   
   .a {
-    margin-left: 10px; /* Adjust as needed */
+    margin-left: 10px; 
     font-family: 'Times New Roman', Times, serif;
     float: left;
   }
   
   .b {
-    margin-right: 10px; /* Adjust as needed */
+    margin-right: 10px; 
     font-size: larger;
     cursor: pointer;
     float: right;
@@ -22,8 +22,8 @@
   
   .c {
     margin-left: 10%;
-    width: 50%; /* Adjust as needed */
-    max-height: 8cm; /* Adjust as needed */
+    width: 50%; 
+    max-height: 8cm; 
   }
   
   .single-line-input,
@@ -43,7 +43,7 @@
   .semiMain {
     background-color: rgba(9, 9, 9, 0);
     width: 80%;
-    margin: 3cm auto 0; /* Adjust the margin values to shift the container down */
+    margin: 3cm auto 0; 
     height: 10cm;
   }
   
